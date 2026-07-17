@@ -8,7 +8,9 @@ import { PhoneModel, Language, Theme, StoreSettings } from './types';
 import Header from './components/Header';
 import Calculator from './components/Calculator';
 import AdminPanel from './components/AdminPanel';
-import { supabase } from './supabaseClient'; // Supabase ချိတ်ဆက်မှု
+// Supabase ချိတ်ဆက်မှု
+import { supabase } from './supabaseClient';
+
 
 export default function App() {
   const [lang, setLang] = useState<Language>('en');
